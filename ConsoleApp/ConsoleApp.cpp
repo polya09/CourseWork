@@ -84,7 +84,7 @@ int main() {
 		case 1:
 			if (key == '\r') {
 				system("cls");
-				cout << "Введите название файла (Input.txt): " << endl;
+				cout << "Введите название файла (Например: Input.txt): " << endl;
 				cin >> fileName;
 				DateReading(d, amoundOfData, fileName);
 				system("pause");
@@ -182,7 +182,7 @@ int main() {
 		case 9:
 			if (key == '\r') {
 				system("cls");
-				cout << "Введите название файла(Input.txt) : " << endl;
+				cout << "Введите название файла (Например: Input.txt):	";
 				cin >> fileName;
 				if (amoundOfData != 0) {
 					SavingData(d, amoundOfData, fileName);
